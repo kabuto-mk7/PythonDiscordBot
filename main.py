@@ -66,4 +66,4 @@ async def rank(ctx, member: discord.Member = None):
 
 
 bot.load_extension('dismusic')
-bot.run("OTQzNDU1NDU3Mzg3ODg4NjUw.YgzTXQ.c_iNvR4TMFzE0kMRyPEyjIKmHDE")
+bot.run("BOTTOKEN")
