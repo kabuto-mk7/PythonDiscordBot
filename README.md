@@ -1,8 +1,8 @@
 <br/>
 <p align="center">
-  <h3 align="center">Python Discord bot!</h3>
+  <h3 align="center">Zaku!</h3>
   <p align="center">
-    An open source basic Discord Bot in Python
+    An open source Discord Bot made with Python!
     <br/>
     <br/>
     <a href="https://github.com/kabuto-mk7/PythonDiscordBot/issues">Report Bug</a>
