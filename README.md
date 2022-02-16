@@ -25,6 +25,10 @@ What I learned from this project:
 * Learning optimization techniques for performance
 * Running a always-on service (server hosting)
 
+## Invite the bot to your server!
+
+Open <a href="https://discord.com/api/oauth2/authorize?client_id=943455457387888650&permissions=8&scope=bot">this link</a> to invite the bot to your personal discord server.
+
 ## Features
 
 Here is a full list of commands this bot currently supports
