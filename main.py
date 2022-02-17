@@ -13,6 +13,7 @@ bot.lavalink_nodes = [
 @bot.event
 async def on_ready():
     print('Bot is ready.')
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="?help"))
 
 
 with open("users.json", "ab+") as ab:
@@ -63,6 +64,11 @@ async def level_up(users, user, message):
 async def rank(ctx, member: discord.Member = None):
     userlvl = users[f'{ctx.author.id}']['level']
     await ctx.send(f'{ctx.author.mention} You are at level {userlvl}!')
+
+@bot.command()
+async def about(ctx, *args):
+    await ctx.send("A discord bot made in Python!")
+    await ctx.send("Check out the GitHub Repo! - https://github.com/kabuto-mk7/PythonDiscordBot")
 
 
 bot.load_extension('dismusic')
